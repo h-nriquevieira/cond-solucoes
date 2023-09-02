@@ -99,7 +99,9 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
+  font-family: "Montserrat", sans-serif;
   vertical-align: baseline;
+  color: var(--clr-primary);
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -136,4 +138,21 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+button {
+  cursor: pointer;
+  background-color: none;
+  padding: 0;
+  border: none;
+}
+
+a {
+  color: "inherit";
+  cursor: pointer;
+}
+
+a:visited {
+  color: "inherit";
+  text-decoration: none;
 }
