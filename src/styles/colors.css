@@ -5,6 +5,8 @@
   --clr-white: #fff;
   --clr-black: #000;
   --clr-gray: #d9d9d9;
+  --clr-darker-gray: #626262;
+  --clr-light-bg: #f3feff;
 
   --brand-gradient: linear-gradient(
     90deg,

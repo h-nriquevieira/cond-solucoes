@@ -1,0 +1,7 @@
+.description {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+.description::-webkit-scrollbar {
+  width: 0 !important;
+}
