@@ -1,0 +1,46 @@
+import * as React from "react";
+
+export const onRenderBody = ({ setHeadComponents }) => {
+  setHeadComponents([
+    <link
+      rel="preload"
+      href="/fonts/Montserrat-Light.otf"
+      as="font"
+      type="font/otf"
+      crossOrigin="anonymous"
+      key="Montserrat-Light.otf"
+    />,
+    <link
+      rel="preload"
+      href="/fonts/Montserrat-Regular.otf"
+      as="font"
+      type="font/otf"
+      crossOrigin="anonymous"
+      key="Montserrat-Regular.otf"
+    />,
+    <link
+      rel="preload"
+      href="/fonts/Montserrat-Bold.otf"
+      as="font"
+      type="font/otf"
+      crossOrigin="anonymous"
+      key="Montserrat-Bold.otf"
+    />,
+    <link
+      rel="preload"
+      href="/fonts/Montserrat-ExtraBold.otf"
+      as="font"
+      type="font/otf"
+      crossOrigin="anonymous"
+      key="Montserrat-ExtraBold.otf"
+    />,
+    <link
+      rel="preload"
+      href="/fonts/Montserrat-Black.otf"
+      as="font"
+      type="font/otf"
+      crossOrigin="anonymous"
+      key="Montserrat-Black.otf"
+    />,
+  ]);
+};
