@@ -1,11 +1,12 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
-import "../styles/reset.css";
+import "../styles/main.css";
+import Header from "../components/Header/Header";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main>
-      <h1 style={{ fontFamily: "Montserrat" }}>Cond Soluções</h1>
+      <Header />
     </main>
   );
 };

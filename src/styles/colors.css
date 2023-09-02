@@ -1,0 +1,14 @@
+:root {
+  --clr-primary: #13314d;
+  --clr-secondary: #58b5be;
+
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-gray: #d9d9d9;
+
+  --brand-gradient: linear-gradient(
+    90deg,
+    var(--clr-primary) 0%,
+    var(--clr-secondary) 100%
+  );
+}
