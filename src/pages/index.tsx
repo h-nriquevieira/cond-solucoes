@@ -5,6 +5,7 @@ import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
 import OfferedServices from "../components/OfferedServices/OfferedServices";
 import AboutUs from "../components/AboutUs/AboutUs";
+import Partners from "../components/Partners/Partners";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -13,6 +14,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <Hero />
       <OfferedServices />
       <AboutUs />
+      <Partners />
     </main>
   );
 };
