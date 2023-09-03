@@ -7,6 +7,7 @@ import OfferedServices from "../components/OfferedServices/OfferedServices";
 import AboutUs from "../components/AboutUs/AboutUs";
 import Partners from "../components/Partners/Partners";
 import Contact from "../components/Contact/Contact";
+import ClientsSection from "../components/ClientsSection/ClientsSection";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -17,6 +18,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <AboutUs />
       <Partners />
       <Contact />
+      <ClientsSection />
     </main>
   );
 };

@@ -1,0 +1,7 @@
+.cardContainer {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+.cardContainer::-webkit-scrollbar {
+  width: 0 !important;
+}
