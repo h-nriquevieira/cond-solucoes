@@ -64,7 +64,6 @@ export default function ClientsSection() {
           alignItems: "start",
           padding: breakpoints.sm ? "2rem 1rem 6rem" : "2rem 5rem 6rem",
         }}
-        className="cardContainer"
       >
         <Joana />
         <Joana />

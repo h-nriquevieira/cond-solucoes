@@ -148,11 +148,20 @@ button {
 }
 
 a {
-  color: "inherit";
+  color: #000;
   cursor: pointer;
 }
 
+a:link {
+  color: #000;
+}
 a:visited {
-  color: "inherit";
+  color: inherit;
   text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}
+a:active {
+  color: inherit;
 }

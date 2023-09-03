@@ -31,12 +31,12 @@ export default function Contact() {
         borderRadius: "25px",
       }}
     >
-      <div style={{ position: "relative" }}>
+      <div style={{ position: "relative", minHeight: "300px" }}>
         <a>
           <StaticImage
             src="../../images/map.png"
             alt="Mapa da localização"
-            style={{ borderRadius: "30px" }}
+            style={{ borderRadius: "30px", minHeight: "300px" }}
           />
         </a>
         <div
