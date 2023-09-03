@@ -4,6 +4,7 @@ import "../styles/main.css";
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
 import OfferedServices from "../components/OfferedServices/OfferedServices";
+import AboutUs from "../components/AboutUs/AboutUs";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -11,6 +12,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <Header />
       <Hero />
       <OfferedServices />
+      <AboutUs />
     </main>
   );
 };

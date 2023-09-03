@@ -40,7 +40,7 @@ export default function Seguranca() {
         </div>
       </HoverCard.Trigger>
       <HoverCard.Portal>
-        <HoverCard.Content side="bottom" avoidCollisions>
+        <HoverCard.Content side="bottom" sideOffset={10} avoidCollisions>
           <div
             style={{
               display: "flex",
