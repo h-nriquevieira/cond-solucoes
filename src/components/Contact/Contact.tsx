@@ -24,6 +24,7 @@ export default function Contact() {
 
   return (
     <section
+      id="contato"
       style={{
         padding: "6rem 2rem",
         display: "grid",
@@ -32,9 +33,9 @@ export default function Contact() {
       }}
     >
       <div style={{ position: "relative", minHeight: "300px" }}>
-        <a>
+        <a href="https://maps.app.goo.gl/AAYcqZA5vCnkkQNb6" target="blank">
           <StaticImage
-            src="../../images/map.png"
+            src="../../images/map-with-address.png"
             alt="Mapa da localização"
             style={{ borderRadius: "30px", minHeight: "300px" }}
           />
@@ -68,7 +69,7 @@ export default function Contact() {
             :
           </h2>
           <p style={{ ...styles.p }}>
-            Rua dos Bobos, 0 Logo Ali, CDC SP - 00000-000
+            Rua Euclides da Cunha, 97 Centro - Itu - 13300-015
           </p>
           <h3 style={{ ...styles.heading }}>Horários:</h3>
           <p style={{ ...styles.p }}>Seg-Sex: das 08:00 às 18:00</p>

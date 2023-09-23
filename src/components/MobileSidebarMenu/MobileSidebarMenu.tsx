@@ -70,7 +70,13 @@ export default function MobileSidebarMenu({
             marginTop: "2rem",
           }}
         >
-          <a style={{ fontSize: "1.25rem" }}>Serviços</a>
+          <a
+            style={{ fontSize: "1.25rem", textDecoration: "none" }}
+            href="#servicos"
+            onClick={toggleMenu}
+          >
+            Serviços
+          </a>
           <button
             style={{
               fontSize: "1.25rem",
@@ -80,7 +86,13 @@ export default function MobileSidebarMenu({
               borderRadius: "25px",
             }}
           >
-            Contato
+            <a
+              style={{ fontSize: "1.25rem", all: "unset" }}
+              href="#contato"
+              onClick={toggleMenu}
+            >
+              Contato
+            </a>
           </button>
         </div>
       </div>

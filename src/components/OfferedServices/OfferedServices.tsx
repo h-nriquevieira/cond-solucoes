@@ -11,6 +11,7 @@ export default function OfferedServices() {
 
   return (
     <section
+      id="servicos"
       style={{
         backgroundColor: "var(--clr-light-bg)",
         padding: "2rem 1rem 6rem",

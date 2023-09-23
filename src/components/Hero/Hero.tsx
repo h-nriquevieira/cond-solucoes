@@ -59,7 +59,9 @@ export default function Hero() {
               borderRadius: "25px",
             }}
           >
-            Nossos serviços
+            <a style={{ all: "unset" }} href="#servicos">
+              Nossos serviços
+            </a>
           </button>
           <button
             style={{
@@ -70,7 +72,9 @@ export default function Hero() {
               borderRadius: "25px",
             }}
           >
-            Contato
+            <a href="#contato" style={{ all: "unset" }}>
+              Contato
+            </a>
           </button>
         </div>
       </div>

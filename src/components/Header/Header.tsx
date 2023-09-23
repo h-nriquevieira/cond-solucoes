@@ -30,7 +30,16 @@ export default function Header() {
         />
         {!breakpoints.sm && (
           <>
-            <a style={{ marginLeft: "auto", fontSize: "1.25rem" }}>Serviços</a>
+            <a
+              href="#servicos"
+              style={{
+                marginLeft: "auto",
+                fontSize: "1.25rem",
+                textDecoration: "none",
+              }}
+            >
+              Serviços
+            </a>
             <button
               style={{
                 fontSize: "1.25rem",
@@ -40,7 +49,9 @@ export default function Header() {
                 borderRadius: "25px",
               }}
             >
-              Contato
+              <a href="#contato" style={{ all: "unset" }}>
+                Contato
+              </a>
             </button>
           </>
         )}

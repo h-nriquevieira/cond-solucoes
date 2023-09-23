@@ -53,7 +53,7 @@ export default function Footer() {
         <p style={{ ...styles.p }}>
           TI - Segurança Papelaria - Limpeza - Descartáveis
         </p>
-        <a>
+        <a href="#contato" style={{ textDecoration: "none" }}>
           <button
             style={{
               padding: ".75rem 1rem",
@@ -85,6 +85,7 @@ export default function Footer() {
           2023 Site criado por{" "}
           <a
             href="https://www.growing.ag/"
+            target="blank"
             style={{ color: "var(--clr-white)", textDecoration: "none" }}
           >
             Growing.ag
