@@ -43,6 +43,12 @@ export default function Partners() {
       >
         <StaticImage
           objectFit="contain"
+          src="../../images/intelbras.png"
+          alt="Logo da microsoft"
+          style={{ maxWidth: "239px" }}
+        />
+        <StaticImage
+          objectFit="contain"
           src="../../images/microsoft.png"
           alt="Logo da microsoft"
         />
