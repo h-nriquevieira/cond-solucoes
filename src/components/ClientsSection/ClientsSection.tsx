@@ -4,6 +4,7 @@ import { useBreakpoint } from "gatsby-plugin-breakpoints";
 import React from "react";
 import Joana from "../ClientCard/Joana";
 import useHorizontalScroll from "../../hooks/useHorizontalScroll";
+import Diego from "../ClientCard/Diego";
 
 export default function ClientsSection() {
   const breakpoints = useBreakpoint();
@@ -69,9 +70,7 @@ export default function ClientsSection() {
         }}
       >
         <Joana />
-        <Joana />
-        <Joana />
-        <Joana />
+        <Diego />
       </div>
     </section>
   );

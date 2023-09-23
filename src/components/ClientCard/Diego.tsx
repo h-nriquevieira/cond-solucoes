@@ -2,7 +2,7 @@ import { useBreakpoint } from "gatsby-plugin-breakpoints";
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
-export default function Joana() {
+export default function Diego() {
   const breakpoints = useBreakpoint();
 
   return (
@@ -42,18 +42,17 @@ export default function Joana() {
               borderRadius: "100%",
               backgroundColor: "var(--clr-secondary)",
             }}
-            ></div> */}
+          ></div> */}
           <StaticImage
-            src="../../images/smiling-woman.jpg"
+            src="../../images/man-looking-at-view.jpg"
             alt=""
             style={{
-              aspectRatio: "1/1",
+              aspectRatio: "1 / 1",
               maxWidth: "80px",
               maxHeight: "80px",
               borderRadius: "100%",
             }}
           />
-
           <div>
             <p
               style={{
@@ -63,7 +62,7 @@ export default function Joana() {
                 letterSpacing: ".1em",
               }}
             >
-              Joana Dias
+              Diego Silva
             </p>
             <p
               style={{
@@ -73,7 +72,7 @@ export default function Joana() {
                 letterSpacing: ".1em",
               }}
             >
-              Produtora de conteúdo
+              Fotógrafo
             </p>
           </div>
         </div>
