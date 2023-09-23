@@ -52,19 +52,15 @@ export default function Limpeza() {
               borderRadius: "50px",
             }}
           >
-            {/* <StaticImage
-              src=""
+            <StaticImage
+              src="../../images/basket-with-cleaning-products.jpg"
               alt=""
-              style={{ backgroundColor: "black", minWidth: "50%" }}
-            /> */}
-            <div
               style={{
                 width: "50%",
-                backgroundColor: "black",
                 borderTopLeftRadius: "45px",
                 borderBottomLeftRadius: "45px",
               }}
-            ></div>
+            />
             <div
               style={{
                 width: "50%",
@@ -85,7 +81,7 @@ export default function Limpeza() {
                   textAlign: "center",
                 }}
               >
-                T.I.
+                Limpeza
               </h3>
               <p
                 style={{

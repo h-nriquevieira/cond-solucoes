@@ -52,19 +52,15 @@ export default function Papelaria() {
               borderRadius: "50px",
             }}
           >
-            {/* <StaticImage
-              src=""
+            <StaticImage
+              src="../../images/shelf-with-notebooks.jpg"
               alt=""
-              style={{ backgroundColor: "black", minWidth: "50%" }}
-            /> */}
-            <div
               style={{
                 width: "50%",
-                backgroundColor: "black",
                 borderTopLeftRadius: "45px",
                 borderBottomLeftRadius: "45px",
               }}
-            ></div>
+            />
             <div
               style={{
                 width: "50%",
@@ -85,7 +81,7 @@ export default function Papelaria() {
                   textAlign: "center",
                 }}
               >
-                T.I.
+                Papelaria
               </h3>
               <p
                 style={{

@@ -52,19 +52,15 @@ export default function Seguranca() {
               borderRadius: "50px",
             }}
           >
-            {/* <StaticImage
-              src=""
+            <StaticImage
+              src="../../images/security.jpg"
               alt=""
-              style={{ backgroundColor: "black", minWidth: "50%" }}
-            /> */}
-            <div
               style={{
                 width: "50%",
-                backgroundColor: "black",
                 borderTopLeftRadius: "45px",
                 borderBottomLeftRadius: "45px",
               }}
-            ></div>
+            />
             <div
               style={{
                 width: "50%",
