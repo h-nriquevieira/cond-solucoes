@@ -86,16 +86,12 @@ export default function Descartaveis() {
               <p
                 style={{
                   marginTop: "1rem",
-                  letterSpacing: ".095em",
-                  lineHeight: "125%",
                 }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                mattis lacinia sapien, non tincidunt tortor lobortis ac. Nunc
-                cursus tortor sed eros pharetra tristique. Ut accumsan leo quis
-                justo posuere, ut auctor lectus rhoncus. Phasellus et nisl
-                fringilla, porta nibh quis, pharetra libero. Donec blandit magna
-                egestas elementum blandit.
+                Itens descartáveis para eventos, portarias e demais serviços
+                necessários. Aqui você encontra uma linha completa de produtos
+                para sua necessidade, desde copos até mesmo talheres e
+                guardanapos.
               </p>
             </div>
           </div>

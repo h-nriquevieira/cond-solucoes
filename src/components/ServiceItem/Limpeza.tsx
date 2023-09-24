@@ -86,16 +86,12 @@ export default function Limpeza() {
               <p
                 style={{
                   marginTop: "1rem",
-                  letterSpacing: ".095em",
-                  lineHeight: "125%",
                 }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                mattis lacinia sapien, non tincidunt tortor lobortis ac. Nunc
-                cursus tortor sed eros pharetra tristique. Ut accumsan leo quis
-                justo posuere, ut auctor lectus rhoncus. Phasellus et nisl
-                fringilla, porta nibh quis, pharetra libero. Donec blandit magna
-                egestas elementum blandit.
+                Para seu conforto, também trabalhamos com materiais de limpeza
+                de alto desempenho, visando facilitar o cotidiano pessoal ou do
+                condomínio. Aqui você encontrará uma vasta opção de produtos
+                para qualquer necessidade.
               </p>
             </div>
           </div>

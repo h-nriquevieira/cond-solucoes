@@ -83,17 +83,33 @@ export default function TI() {
               <p
                 style={{
                   marginTop: "1rem",
-                  letterSpacing: ".095em",
-                  lineHeight: "125%",
                 }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                mattis lacinia sapien, non tincidunt tortor lobortis ac. Nunc
-                cursus tortor sed eros pharetra tristique. Ut accumsan leo quis
-                justo posuere, ut auctor lectus rhoncus. Phasellus et nisl
-                fringilla, porta nibh quis, pharetra libero. Donec blandit magna
-                egestas elementum blandit.
+                Do suporte ao hardware nós oferecemos a você todos os itens
+                essenciais para suprir as suas necessidades. Trabalhamos
+                amplamente com:
               </p>
+              <ul
+                style={{
+                  listStyle: "disc inside",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: ".5rem",
+                  marginTop: ".5rem",
+                }}
+              >
+                <li>Suporte técnico de TI para sua empresa, negócio e casa;</li>
+                <li>
+                  Venda de computadores, Acessórios, Impressoras e demais
+                  componentes;
+                </li>
+                <li>
+                  Venda de placas de vídeo, memória, HDs, teclado, mouse e mais;
+                </li>
+                <li>
+                  Venda de Servidores, softwares, NAS, nobreak, estabilizadores.
+                </li>
+              </ul>
             </div>
           </div>
         </HoverCard.Content>

@@ -86,17 +86,25 @@ export default function Papelaria() {
               <p
                 style={{
                   marginTop: "1rem",
-                  letterSpacing: ".095em",
-                  lineHeight: "125%",
                 }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                mattis lacinia sapien, non tincidunt tortor lobortis ac. Nunc
-                cursus tortor sed eros pharetra tristique. Ut accumsan leo quis
-                justo posuere, ut auctor lectus rhoncus. Phasellus et nisl
-                fringilla, porta nibh quis, pharetra libero. Donec blandit magna
-                egestas elementum blandit.
+                Comercializamos produtos de papelaria em gerai, sendo itens
+                pessoas ou de escritório.
               </p>
+              <ul
+                style={{
+                  listStyle: "disc inside",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: ".5rem",
+                  marginTop: ".5rem",
+                }}
+              >
+                <li>
+                  Lápis, borracha, sulfite, caderno, estilete, grampeador,
+                  furador, canetas, organizadores de mesa e mais.
+                </li>
+              </ul>
             </div>
           </div>
         </HoverCard.Content>

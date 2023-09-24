@@ -85,17 +85,29 @@ export default function Seguranca() {
               <p
                 style={{
                   marginTop: "1rem",
-                  letterSpacing: ".095em",
-                  lineHeight: "125%",
                 }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                mattis lacinia sapien, non tincidunt tortor lobortis ac. Nunc
-                cursus tortor sed eros pharetra tristique. Ut accumsan leo quis
-                justo posuere, ut auctor lectus rhoncus. Phasellus et nisl
-                fringilla, porta nibh quis, pharetra libero. Donec blandit magna
-                egestas elementum blandit.
+                Trabalhamos com os mais sofisticados sistemas de segurança,
+                visando trazer conforto e tranquilidade para quem precisa.
               </p>
+              <ul
+                style={{
+                  listStyle: "disc inside",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: ".5rem",
+                  marginTop: ".5rem",
+                }}
+              >
+                <li>
+                  Venda de sistemas eletrônicos de segurança, alarmes, câmeras,
+                  hds, cerca, sensores, dvrs e mais;
+                </li>
+                <li>
+                  Serviço em sistemas eletrônicos de segurança (Alarme, Câmera,
+                  Cerca Elétrica, etc).
+                </li>
+              </ul>
             </div>
           </div>
         </HoverCard.Content>
