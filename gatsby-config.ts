@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Cond Soluções`,
-    siteUrl: `https://reprehensible-potat.000webhostapp.com/`,
+    siteUrl: `https://condsolucoes.com.br/`,
   },
   pathPrefix: "/cond-solucoes",
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.

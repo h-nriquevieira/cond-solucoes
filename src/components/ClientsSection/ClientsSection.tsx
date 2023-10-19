@@ -2,9 +2,9 @@
 // import "slick-carousel/slick/slick-theme.css";
 import { useBreakpoint } from "gatsby-plugin-breakpoints";
 import React from "react";
-import Joana from "../ClientCard/Joana";
 import useHorizontalScroll from "../../hooks/useHorizontalScroll";
-import Diego from "../ClientCard/Diego";
+import Roberto from "../ClientCard/Roberto";
+import Luana from "../ClientCard/Luana";
 
 export default function ClientsSection() {
   const breakpoints = useBreakpoint();
@@ -69,8 +69,8 @@ export default function ClientsSection() {
           padding: breakpoints.sm ? "2rem 1rem 6rem" : "2rem 5rem 6rem",
         }}
       >
-        <Joana />
-        <Diego />
+        <Luana />
+        <Roberto />
       </div>
     </section>
   );

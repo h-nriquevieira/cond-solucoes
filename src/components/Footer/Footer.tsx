@@ -45,7 +45,7 @@ export default function Footer() {
         <div style={{ maxWidth: breakpoints.sm ? "100px" : "100%" }}>
           <h4 style={{ ...styles.heading }}>Cond Soluções</h4>
           <p style={{ ...styles.p }}>
-            Rua dos Bobos, 0, Logo Ali, CDC - SP - 00000-000
+            Rua Euclides da Cunha, 97 Centro - Itu - 13300-015
           </p>
           <p style={{ ...styles.p }}>comercial@condsolucoes.com.br</p>
           <p style={{ ...styles.p }}>(11) 4022-8884</p>

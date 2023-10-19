@@ -34,6 +34,7 @@ export default function Partners() {
       <div
         style={{
           display: "flex",
+          flexWrap: "wrap",
           justifyContent: "center",
           alignContent: "center",
           gap: "3rem",
@@ -45,21 +46,24 @@ export default function Partners() {
           objectFit="contain"
           src="../../images/intelbras.png"
           alt="Logo da microsoft"
-          style={{ maxWidth: "239px" }}
+          style={{ maxWidth: "min(250px, 20%)" }}
         />
         <StaticImage
           objectFit="contain"
           src="../../images/microsoft.png"
+          style={{ maxWidth: "min(250px, 20%)" }}
           alt="Logo da microsoft"
         />
         <StaticImage
           objectFit="contain"
           src="../../images/bitdefender.png"
+          style={{ maxWidth: "min(250px, 20%)" }}
           alt="Logo da bitdefender"
         />
         <StaticImage
           objectFit="contain"
           src="../../images/ipforce.png"
+          style={{ maxWidth: "min(250px, 20%)" }}
           alt="Logo da ipforce"
         />
       </div>

@@ -2,7 +2,7 @@ import { useBreakpoint } from "gatsby-plugin-breakpoints";
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
-export default function Joana() {
+export default function Luana() {
   const breakpoints = useBreakpoint();
 
   return (
@@ -44,7 +44,7 @@ export default function Joana() {
             }}
             ></div> */}
           <StaticImage
-            src="../../images/smiling-woman.jpg"
+            src="../../images/luana-martinz.jpeg"
             alt=""
             style={{
               aspectRatio: "1/1",
@@ -63,7 +63,7 @@ export default function Joana() {
                 letterSpacing: ".1em",
               }}
             >
-              Joana Dias
+              Luana Martinz
             </p>
             <p
               style={{
@@ -73,7 +73,7 @@ export default function Joana() {
                 letterSpacing: ".1em",
               }}
             >
-              Produtora de conteúdo
+              Administrativo
             </p>
           </div>
         </div>
@@ -87,11 +87,10 @@ export default function Joana() {
           fontWeight: "300",
         }}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit
-        amet nisl consequat, tincidunt quam quis, viverra nunc. Cras cursus,
-        nisi in finibus varius, magna ligula laoreet elit, dictum placerat dolor
-        libero euismod quam. Quisque condimentum suscipit elit et dictum.
-        Aliquam ligula nibh, tristique sed aliquam vel, scelerisque in ante.
+        O fornecimento de descartáveis e produtos de limpeza facilitou demais o
+        fluxo da empresa, com todos os serviços concentrados em uma
+        colaboradora, tivemos facilidade em organizar o caixa da empresa e
+        receber os produtos todos no mesmo dia.
       </p>
     </div>
   );

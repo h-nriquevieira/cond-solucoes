@@ -2,7 +2,7 @@ import { useBreakpoint } from "gatsby-plugin-breakpoints";
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
-export default function Diego() {
+export default function Roberto() {
   const breakpoints = useBreakpoint();
 
   return (
@@ -44,7 +44,7 @@ export default function Diego() {
             }}
           ></div> */}
           <StaticImage
-            src="../../images/man-looking-at-view.jpg"
+            src="../../images/roberto-silva.jpeg"
             alt=""
             style={{
               aspectRatio: "1 / 1",
@@ -62,7 +62,7 @@ export default function Diego() {
                 letterSpacing: ".1em",
               }}
             >
-              Diego Silva
+              Roberto Silva
             </p>
             <p
               style={{
@@ -72,7 +72,7 @@ export default function Diego() {
                 letterSpacing: ".1em",
               }}
             >
-              Fotógrafo
+              Síndico
             </p>
           </div>
         </div>
@@ -86,11 +86,10 @@ export default function Diego() {
           fontWeight: "300",
         }}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit
-        amet nisl consequat, tincidunt quam quis, viverra nunc. Cras cursus,
-        nisi in finibus varius, magna ligula laoreet elit, dictum placerat dolor
-        libero euismod quam. Quisque condimentum suscipit elit et dictum.
-        Aliquam ligula nibh, tristique sed aliquam vel, scelerisque in ante.
+        A Cond Soluções apareceu em uma hora perfeita, o condominio estava
+        passando por reestruturação de segurança e eles forneceram tudo que
+        precisávamos. Desde equipamentos de segurança, instalação e treinamento.
+        Recomendo muito.
       </p>
     </div>
   );
